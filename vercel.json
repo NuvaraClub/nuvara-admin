@@ -1,1 +1,1 @@
-{"rewrites":[{"source":"/(.*)", "destination":"/index.html"}]}
+{"rewrites":[{"source":"/auth/:path*","destination":"https://nuvara-backend-production.up.railway.app/auth/:path*"},{"source":"/admin/:path*","destination":"https://nuvara-backend-production.up.railway.app/admin/:path*"},{"source":"/store/:path*","destination":"https://nuvara-backend-production.up.railway.app/store/:path*"},{"source":"/(.*)", "destination":"/index.html"}]}
